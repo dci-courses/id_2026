@@ -1,5 +1,17 @@
 website:
-  sidebar:
-    contents:
-      - index.ipynb
-      - 00_core.ipynb
+    sidebar:
+        contents:
+            - index.ipynb
+            - section: ML5
+              contents:
+                  - ml5/image_classification.qmd
+                  - ml5/image_classification_tm.qmd
+                  - ml5/sound_classifier.qmd
+                  - ml5/object_detection.qmd
+                  - ml5/hand_pose.qmd
+                  - ml5/dino_run.qmd
+            - section: Vulnerabilidades
+              contents:
+                  - vuln/introduccion_vulnerabilidades.ipynb
+                  - vuln/generacion_codeql.ipynb
+                  - vuln/explicacion_script_codeql.ipynb

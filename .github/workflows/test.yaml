@@ -1,7 +1,7 @@
-# name: CI
-# on:  [workflow_dispatch, pull_request, push]
+name: CI
+on:  [workflow_dispatch, pull_request, push]
 
-# jobs:
-#   test:
-#     runs-on: ubuntu-latest
-#     steps: [uses: answerdotai/workflows/nbdev3-ci@master]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps: [uses: answerdotai/workflows/nbdev3-ci@master]
