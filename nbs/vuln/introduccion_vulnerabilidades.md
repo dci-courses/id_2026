@@ -22,6 +22,8 @@ El concepto de **modelo de amenazas** funciona como una herramienta para enumera
 
 Esta idea es especialmente útil al estudiar vulnerabilidades, porque permite pasar de una noción abstracta de “falla” a una evaluación más concreta del riesgo. Una misma debilidad puede tener implicancias muy distintas dependiendo de quién puede alcanzarla, qué capacidades tiene el atacante y qué efecto produce sobre la confidencialidad, integridad o disponibilidad del sistema.
 
+Como referencia conceptual general para estas nociones, resulta útil revisar [**seguridad.pdf**](/Users/pavt/Documents/research/repos/cursos/id_2026/data/book/seguridad.pdf), especialmente en lo relativo a seguridad de software, modelo de amenazas y distinción entre bugs y vulnerabilidades.
+
 ## Vulnerabilidades, severidad y gestión del riesgo
 
 No todas las vulnerabilidades tienen la misma criticidad. Su gravedad depende de factores como la facilidad de explotación, el impacto esperado, el contexto del sistema afectado y la existencia o no de medidas compensatorias. Por eso, además de detectar hallazgos, resulta necesario priorizarlos. Conceptos como severidad, riesgo y remediación son parte central del trabajo de análisis, ya que permiten distinguir entre problemas urgentes, mejoras importantes y observaciones de menor impacto inmediato.
@@ -30,6 +32,11 @@ Desde una perspectiva formativa, esto implica comprender que el análisis de vul
 
 ## Relación con este módulo
 
-En este módulo, el tema se aborda desde dos ángulos complementarios. Por una parte, se revisa el análisis estático de código para detectar problemas de seguridad directamente en los repositorios. Por otra, se examinan vulnerabilidades conocidas presentes en dependencias y componentes utilizados por esos proyectos. De ese modo, el material no se limita a mostrar herramientas, sino que permite entender que una estrategia de seguridad razonable necesita observar tanto el código propio como el ecosistema de software del que depende.
+En este módulo, el tema se aborda desde dos ángulos complementarios. Por una parte, se revisa el análisis estático de código con herramientas como [**CodeQL**](https://codeql.github.com/docs/contents/) para detectar problemas de seguridad directamente en los repositorios. Por otra, se examinan vulnerabilidades conocidas presentes en dependencias y componentes utilizados por esos proyectos con herramientas como [**Grype**](https://oss.anchore.com/docs/guides/vulnerability/getting-started/). De ese modo, el material no se limita a mostrar herramientas, sino que permite entender que una estrategia de seguridad razonable necesita observar tanto el código propio como el ecosistema de software del que depende.
 
 Los notebooks posteriores desarrollan esa idea de manera aplicada. Algunos se enfocan en la ejecución de análisis y en la inspección de resultados; otros documentan la lógica de los scripts que automatizan esos flujos. Esta introducción, en cambio, busca entregar el marco conceptual mínimo para comprender por qué esos análisis son relevantes y qué tipo de preguntas ayudan a responder dentro de un proceso de desarrollo seguro.
+
+## Lista de Referencias
+
+- [CodeQL Documentation](https://codeql.github.com/docs/contents/)
+- [Grype Getting Started](https://oss.anchore.com/docs/guides/vulnerability/getting-started/)
