@@ -12,8 +12,8 @@ website:
                   - ml5/dino_run.qmd
             - section: SBOMs
                 contents:
-                    - sbom/introduccion_sboms.ipynb
-                    - sbom/generacion_sboms.ipynb
+                  - sbom/introduccion_sboms.ipynb
+                  - sbom/generacion_sboms.ipynb
             - section: Vulnerabilidades
               contents:
                   - vuln/introduccion_vulnerabilidades.ipynb
