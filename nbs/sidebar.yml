@@ -12,8 +12,9 @@ website:
                   - ml5/dino_run.qmd
             - section: SBOMs
               contents:
-                  - sbom/introduccion_sboms.ipynb
-                  - sbom/generacion_sboms.ipynb
+                  - sbom/introduccion_sboms.md
+                  - sbom/explicacion_script_sbom.ipynb
+                  - sbom/generacion_sbom.ipynb
             - section: Vulnerabilidades
               contents:
                   - vuln/introduccion_vulnerabilidades.ipynb
@@ -21,4 +22,3 @@ website:
                   - vuln/explicacion_script_codeql.ipynb
                   - vuln/generacion_grype.ipynb
                   - vuln/explicacion_script_grype.ipynb
-
