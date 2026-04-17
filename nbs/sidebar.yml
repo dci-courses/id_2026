@@ -11,7 +11,7 @@ website:
                   - ml5/hand_pose.qmd
                   - ml5/dino_run.qmd
             - section: SBOMs
-                contents:
+              contents:
                   - sbom/introduccion_sboms.ipynb
                   - sbom/generacion_sboms.ipynb
             - section: Vulnerabilidades
