@@ -17,7 +17,7 @@ website:
                   - sbom/generacion_sbom.ipynb
             - section: Vulnerabilidades
               contents:
-                  - vuln/introduccion_vulnerabilidades.ipynb
+                  - vuln/introduccion_vulnerabilidades.md
                   - vuln/generacion_codeql.ipynb
                   - vuln/explicacion_script_codeql.ipynb
                   - vuln/generacion_grype.ipynb
