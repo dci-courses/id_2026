@@ -16,11 +16,13 @@ En ese contexto, los SBOMs aportan una base concreta para mejorar la trazabilida
 
 ## Estándares y automatización
 
-Para que un SBOM sea realmente útil, su generación e interpretación deben poder automatizarse. Por eso existen estándares de intercambio que facilitan producir, compartir y procesar esta información de manera consistente. Entre los formatos más conocidos se encuentran **CycloneDX** y **SPDX**, ambos ampliamente utilizados en prácticas de seguridad y cumplimiento.
+Para que un SBOM sea realmente útil, su generación e interpretación deben poder automatizarse. Por eso existen estándares de intercambio que facilitan producir, compartir y procesar esta información de manera consistente. Entre los formatos más conocidos se encuentran [**CycloneDX**](https://cyclonedx.org/specification/overview), actualmente desarrollado como estándar abierto para transparencia de la cadena de suministro, y [**SPDX**](https://spdx.dev/use/specifications/), estándar internacional abierto utilizado ampliamente para describir componentes, licencias y relaciones entre artefactos de software. Ambos son ampliamente utilizados en prácticas de seguridad y cumplimiento.
 
 La automatización es clave porque un SBOM pierde valor si se genera una sola vez y luego queda desactualizado. En entornos de desarrollo continuos, donde cambian dependencias, versiones y artefactos con frecuencia, lo recomendable es integrar la generación de SBOMs al flujo de trabajo habitual. De esa forma, el inventario puede mantenerse vigente y complementarse con procesos de análisis de vulnerabilidades y revisión de licencias.
 
-## Relación con este módulo
+Como referencia institucional más general sobre el tema, también resulta útil revisar los materiales de [**CISA sobre SBOM**](https://www.cisa.gov/sbom) y los recursos de [**NTIA sobre Software Bill of Materials**](https://www.ntia.gov/page/software-bill-materials), ya que ambos reúnen lineamientos, definiciones y documentos introductorios ampliamente utilizados en la conversación pública sobre transparencia de componentes de software.
+
+## Contenido del Módulo
 
 En este módulo, los materiales siguientes aterrizan esta idea general en un contexto práctico. Por una parte, se muestra cómo generar SBOMs para un conjunto de repositorios y cómo aprovechar esos resultados para obtener una visión consolidada de los componentes detectados. Por otra, se presenta la lógica general del script que automatiza ese proceso, de modo que resulte claro cómo llevar esta práctica desde una explicación conceptual a una ejecución reproducible.
 
