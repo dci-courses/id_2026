@@ -27,3 +27,10 @@ Como referencia institucional más general sobre el tema, también resulta útil
 En este módulo, los materiales siguientes aterrizan esta idea general en un contexto práctico. Por una parte, se muestra cómo generar SBOMs para un conjunto de repositorios y cómo aprovechar esos resultados para obtener una visión consolidada de los componentes detectados. Por otra, se presenta la lógica general del script que automatiza ese proceso, de modo que resulte claro cómo llevar esta práctica desde una explicación conceptual a una ejecución reproducible.
 
 Así, esta introducción busca responder el **por qué** de los SBOMs, mientras que los notebooks posteriores desarrollan el **cómo** incorporarlos a un flujo de trabajo real. La combinación de ambas perspectivas es relevante: no se trata solo de producir archivos con dependencias, sino de entender por qué esos datos son útiles para la gestión de riesgos, la observabilidad del software y la seguridad de la cadena de suministro.
+
+## Lista de Referencias
+
+- [CycloneDX Specification Overview](https://cyclonedx.org/specification/overview)
+- [SPDX Specifications](https://spdx.dev/use/specifications/)
+- [CISA: Software Bill of Materials (SBOM)](https://www.cisa.gov/sbom)
+- [NTIA: Software Bill of Materials](https://www.ntia.gov/page/software-bill-materials)
