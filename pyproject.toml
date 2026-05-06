@@ -19,8 +19,11 @@ dependencies = [
     "jupyterlab>=4.5.6",
     "nbdev>=3.0.12",
     "pandas>=2.0.0",
+    "numpy>=2.0.0",
     "ipywidgets>=8.0.0",
     "matplotlib>=3.7.0",
+    "scikit-learn>=1.4.0",
+    "ucimlrepo>=0.0.7",
 ]
 
 [project.urls]
