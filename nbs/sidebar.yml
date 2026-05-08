@@ -26,4 +26,8 @@ website:
                   - vuln/explicacion_script_grype.ipynb
             - section: Predicción y clasificación
               contents:
+                  - prediccion_clasificacion/introduccion_clasificacion.md
                   - prediccion_clasificacion/01_clasificacion_bank_marketing.ipynb
+                  - prediccion_clasificacion/02_clasificacion_digits.ipynb
+                  - prediccion_clasificacion/03_metricas_clasificacion_binaria.ipynb
+                  - prediccion_clasificacion/04_ejercicios_clasificacion.md
